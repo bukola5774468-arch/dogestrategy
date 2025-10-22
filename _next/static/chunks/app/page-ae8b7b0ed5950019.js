@@ -40,12 +40,12 @@
                   className: "flex flex-wrap items-center gap-3",
                   children: [
                     (0, i.jsx)(d(), {
-                      href: "https://x.com/_dogestrategy",
+                      href: "https://x.com/dogestroneth",
                       className: "hover:underline underline-offset-4",
                       children: "X",
                     }),
                     (0, i.jsx)(d(), {
-                      href: "https://t.me/doge_strategy",
+                      href: "https://x.com/dogestroneth",
                       className: "hover:underline underline-offset-4",
                       children: "Telegram",
                     }),
@@ -532,7 +532,7 @@
                                   : "text-black/70",
                                 " px-3 py-1 rounded-full text-xs font-medium transition"
                               ),
-                              children: "Sold Pepe",
+                              children: "Sold Dogestr",
                             }),
                           ],
                         }),
@@ -583,7 +583,7 @@
                               "col-span-full text-center text-black/70 text-sm py-8",
                             children:
                               "holding" === H
-                                ? "No PEPE purchased yet."
+                                ? "No DOGESTR purchased yet."
                                 : "No PEPE sold yet.",
                           }),
                         !A &&
