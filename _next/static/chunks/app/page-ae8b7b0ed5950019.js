@@ -584,7 +584,7 @@
                             children:
                               "holding" === H
                                 ? "No DOGESTR purchased yet."
-                                : "No PEPE sold yet.",
+                                : "No DOGESTR sold yet.",
                           }),
                         !A &&
                           _.map((e) => {
