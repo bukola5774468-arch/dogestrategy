@@ -72,7 +72,7 @@
       async function f() {
         try {
           let e = "https://1rpc.io/eth",
-            t = "0xcomingsoon";
+            t = "0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12";
           if (!e || !t) return null;
           let s = new x.FR(e),
             i = new m.NZ(t, p, s),
@@ -164,7 +164,7 @@
           m = Math.max(0, 5.01 - x),
           u = Math.max(0, Math.min(100, (x / 5.01) * 100)),
           [p, v] = (0, a.useState)(null),
-          E = "0xcomingsoon",
+          E = "0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12",
           { isConnected: F } = (0, g.F)(),
           { data: P, writeContract: S, isPending: k } = (0, b.x)(),
           { isLoading: T, isSuccess: C } = (0, w.g)({ hash: P }),
@@ -239,7 +239,7 @@
                           className:
                             "px-4 py-2 rounded-md hover:bg-accent/10 text-sm text-black",
                           style: {border:"2px solid rgba(0,0,0,.4)"},
-                          href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xcomingsoon",
+                          href: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12",
                           children: "Trade DOGESTR",
                         }),
                         (0, i.jsx)(o.pK, {}),
@@ -254,7 +254,7 @@
                   children: [
                     (0, i.jsx)("a", {
                       href: "https://etherscan.io/address/".concat(
-                        "0xcomingsoon"
+                        "0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12"
                       ),
                       target: "_blank",
                       rel: "noopener noreferrer",
@@ -808,7 +808,7 @@
                         width: "100%",
                         id: "geckoterminal-embed",
                         title: "GeckoTerminal Embed",
-                        src: "https://dexscreener.com/ethereum/0xcomingsoon",
+                        src: "https://dexscreener.com/ethereum/0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12",
                         frameBorder: 0,
                         allow: "clipboard-write",
                         allowFullScreen: !0,
@@ -833,7 +833,7 @@
             s &&
               l &&
               n({
-                address: "0xcomingsoon",
+                address: "0x44F5fD30d04Fc3F6B0bd14100e506A9843f19E12",
                 abi: j,
                 functionName: "sellPepe",
                 args: [BigInt(t)],
