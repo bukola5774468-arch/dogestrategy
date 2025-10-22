@@ -40,12 +40,12 @@
                   className: "flex flex-wrap items-center gap-3",
                   children: [
                     (0, i.jsx)(d(), {
-                      href: "https://x.com/PepeStrategy_",
+                      href: "https://x.com/dogestrategy_",
                       className: "hover:underline underline-offset-4",
                       children: "X",
                     }),
                     (0, i.jsx)(d(), {
-                      href: "https://t.me/PepeStrategyeth",
+                      href: "https://t.me/doge_strategy",
                       className: "hover:underline underline-offset-4",
                       children: "Telegram",
                     }),
